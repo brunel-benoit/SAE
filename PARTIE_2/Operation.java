@@ -9,7 +9,7 @@ public abstract class Operation extends Expression{
 
     }
 
-    //public abstract double valeur();
+    public abstract double valeur();
 
     public Expression getOperande1(){
         return this.operande1;
